@@ -1,0 +1,23 @@
+source
+  id
+  name
+
+product
+  id
+  name
+  sourceId
+
+productIngredient
+  id
+  rank
+  ingredientSynonymId
+  productId
+
+ingredientSynonym
+  id
+  name
+  ingredientId
+
+ingredient
+  id
+  ingredientName

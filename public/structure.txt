@@ -1,0 +1,46 @@
+source
+  id: a79e6d90-0132-4321-b17e-3dc2866cc17e
+  site: "http://www.ulta.com"
+  name: "Ulta Beauty"
+
+  id: 337fe8c5-f617-44fa-b073-a6da4f2bcb21
+  site: "http://www.sephora.com"
+  name: "Sephora"
+
+product
+  id: 314c05bd-e478-48c5-8590-ba496d6b7b3c
+  name: "Born This Way Foundation"
+
+productOption
+  id: 7f5be3eb-b784-45f9-8c8f-0c01b8de3944
+  name: "Porcelain"
+  
+productOptionIngredient
+  id: ce7de9e1-b73e-4e15-956c-1503c6b537bf
+  rank: 0
+  ingredientSynonymId: 6df090a8-8c1e-41b3-9433-d887011e8486
+  productOptionId: 7f5be3eb-b784-45f9-8c8f-0c01b8de3944
+
+ingredientSynonym
+  id: 4049c262-3341-41b3-9975-51b9d4c1ea11
+  name: "Water"
+  ingredientId: 63ec2c9b-c49e-46bb-b08c-5c9db89fcdc8
+
+  id: 6df090a8-8c1e-41b3-9433-d887011e8486
+  name: "Water/Aqua/Eau"
+  ingredientId: 63ec2c9b-c49e-46bb-b08c-5c9db89fcdc8
+  
+ingredient
+  id: 63ec2c9b-c49e-46bb-b08c-5c9db89fcdc8
+  name: "Water"
+
+sourceProductOption
+  id: 8bee89ed-4b37-4052-94f4-d630bc19ca7d
+  price: 39
+  productId: 314c05bd-e478-48c5-8590-ba496d6b7b3c
+  sourceId: 337fe8c5-f617-44fa-b073-a6da4f2bcb21
+
+  id: be89cd2c-5ab0-429c-ba52-7512929860f5
+  price: 39
+  productOptionId: 7f5be3eb-b784-45f9-8c8f-0c01b8de3944
+  sourceId: a79e6d90-0132-4321-b17e-3dc2866cc17e
